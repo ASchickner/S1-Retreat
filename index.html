@@ -1,1 +1,20 @@
-<html>\n<head>\n    <link rel="stylesheet" href="styles.css">\n    <script src="script.js"></script>\n</head>\n<body>\n    <form action="https://formspree.io/f/xzdkgobb" method="POST">\n        <div>\n            <label for="name">Name:</label>\n            <input type="text" id="name" name="name" required>\n        </div>\n        <div>\n            <label for="email">Email:</label>\n            <input type="email" id="email" name="email" required>\n        </div>\n        <div>\n            <label for="message">Message:</label>\n            <textarea id="message" name="message" required></textarea>\n        </div>\n        <button type="submit">RSVP</button>\n    </form>\n</body>\n</html>
+<html>
+<head>
+    <title>RSVP Form</title>
+</head>
+<body>
+    <h1>RSVP for the Event</h1>
+    <form action="https://formspree.io/f/xwkyzqne" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="attendance">Will you attend?</label><br>
+        <select id="attendance" name="attendance">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
